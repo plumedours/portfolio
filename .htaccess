@@ -1,0 +1,42 @@
+# Activer le module de réécriture
+RewriteEngine On
+
+# Rediriger vers HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Protéger contre l'affichage du contenu du répertoire
+Options -Indexes
+
+# Empêcher la navigation sur les répertoires parent
+Options -MultiViews
+RewriteBase /
+
+# Empêcher l'accès direct aux fichiers htaccess
+<Files .htaccess>
+    Require all denied
+</Files>
+
+# Désactiver le téléchargement de certains types de fichiers
+<FilesMatch "\.(php|php\.)">
+    Require all denied
+</FilesMatch>
+
+# Protéger contre l'injection de scripts malveillants (XSS)
+<IfModule mod_headers.c>
+    Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# Désactiver la fonctionnalité ServerSignature (masquer les informations du serveur)
+ServerSignature Off
+
+# Bloquer les tentatives d'accès aux fichiers htaccess et htpasswd
+<Files ~ "^\.ht">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Rediriger toutes les demandes vers l'index.html pour les routes React
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ /index.html [L]
