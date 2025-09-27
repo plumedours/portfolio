@@ -1,0 +1,100 @@
+:root {
+	--image-url: url('/public/images/bg-home.webp'); /* Définissez la variable pour l'URL de l'image */
+	--neutral-200: #e5e5e5;
+	--primary-blue: #0093d3;
+}
+
+.image-container {
+	position: relative;
+	overflow: hidden;
+	background-image: var(
+		--image-url
+	); /* Utilisez la variable pour l'URL de l'image */
+	background-size: cover;
+	background-position: center center;
+}
+
+.image-container::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(
+		0,
+		0,
+		0,
+		0.5
+	); /* Couleur gris foncé avec une opacité de 0.5 */
+}
+
+/* React Tabs */
+
+.react-tabs {
+	-webkit-tap-highlight-color: transparent;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.react-tabs__tab-list {
+	display: flex;
+	justify-content: center;
+	margin: 0 0 10px;
+	padding: 0;
+	color: var(--neutral-200);
+}
+
+.react-tabs__tab {
+	margin: 6px 20px;
+	cursor: pointer;
+}
+
+@media (max-width: 640px) {
+	.react-tabs__tab-list {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.react-tabs__tab:hover {
+	border-bottom: 2px solid var(--primary-blue);
+	color: var(--neutral-200);
+	scale: 1.03;
+	transition: all;
+	transition-duration: 0.2s;
+}
+
+.react-tabs__tab--selected {
+	background: transparent;
+	border-bottom: 2px solid var(--primary-blue);
+	color: var(--neutral-200);
+}
+
+.react-tabs__tab--selected:hover {
+	scale: none;
+	transition: none;
+}
+
+.react-tabs__tab:focus {
+	outline: none;
+}
+
+/* .react-tabs__tab:focus:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    left: -4px;
+    right: -4px;
+    bottom: -5px;
+    background: var(--primary-blue);
+  } */
+
+.react-tabs__tab-panel {
+	display: none;
+}
+
+.react-tabs__tab-panel--selected {
+	display: block;
+}
