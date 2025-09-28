@@ -21,7 +21,7 @@ function ModelizationPage() {
         <ModelViewer modelUrl="https://sketchfab.com/models/226b7af022c24807975b1a0fb68088e8/embed" />
         {/* <ModelViewer modelUrl="https://sketchfab.com/models/CHANGE/embed" /> */}
       </div>
-      <div className="flex flex-col md:flex-row w-11/12 mx-auto justify-center items-center md:items-start gap-10 my-10 border shadow-md shadow-neutral-500 border-neutral-700 p-3">
+      {/* <div className="flex flex-col md:flex-row w-11/12 mx-auto justify-center items-center md:items-start gap-10 my-10 border shadow-md shadow-neutral-500 border-neutral-700 p-3">
         <div className="flex h-60">
           <iframe src="https://discord.com/widget?id=1029418323714248744&theme=dark" allowtransparency="true" frameBorder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
         </div>
@@ -39,7 +39,7 @@ function ModelizationPage() {
             <p>Ne restez pas bloqué, venez nous rejoindre dès maintenant et faites de votre expérience de modélisation 3D une aventure collaborative.</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

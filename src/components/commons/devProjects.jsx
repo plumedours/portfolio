@@ -1,9 +1,11 @@
 import Icons from "./Icons";
 import ExternalButton from "./ExternalButton";
 
+const base = import.meta.env.BASE_URL;
+
 export const developmentData = [
 	{
-		imgSrc: '/images/dev/001.webp',
+		imgSrc: `${base}images/dev/001.webp`,
 		title: '8 Ball',
 
 		icons: (
@@ -49,7 +51,7 @@ export const developmentData = [
 		category: 'Jeux par navigateur',
 	},
 	{
-		imgSrc: '/images/dev/tiktakline.webp',
+		imgSrc: `${base}images/dev/tiktakline.webp`,
 		title: 'TikTakLine',
 
 		icons: (
@@ -95,7 +97,7 @@ export const developmentData = [
 		category: 'Jeux par navigateur',
 	},
 	{
-		imgSrc: '/images/dev/004.webp',
+		imgSrc: `${base}images/dev/004.webp`,
 		title: 'AquaFish',
 
 		icons: (
@@ -147,7 +149,7 @@ export const developmentData = [
 		category: 'Applications web',
 	},
 	{
-		imgSrc: '/images/dev/006.webp',
+		imgSrc: `${base}images/dev/006.webp`,
 		title: 'Le pendu',
 
 		icons: (
@@ -209,7 +211,7 @@ export const developmentData = [
 		category: 'Jeux par navigateur',
 	},
 	{
-		imgSrc: '/images/dev/007.webp',
+		imgSrc: `${base}images/dev/007.webp`,
 		title: 'Crack The Code',
 
 		icons: (
@@ -271,7 +273,7 @@ export const developmentData = [
 		category: 'Jeux par navigateur',
 	},
 	{
-		imgSrc: '/images/dev/008.webp',
+		imgSrc: `${base}images/dev/008.webp`,
 		title: 'CHIFOUMI',
 
 		icons: (
@@ -333,7 +335,7 @@ export const developmentData = [
 		category: 'Jeux par navigateur',
 	},
 	{
-		imgSrc: '/images/dev/010.webp',
+		imgSrc: `${base}images/dev/010.webp`,
 		title: 'Crack The Code',
 
 		icons: (
@@ -374,7 +376,7 @@ export const developmentData = [
 		category: 'Jeux Android',
 	},
 	{
-		imgSrc: '/images/dev/011.webp',
+		imgSrc: `${base}images/dev/011.webp`,
 		title: 'Dice Battle',
 
 		icons: (
@@ -436,7 +438,7 @@ export const developmentData = [
 		category: 'Jeux par navigateur',
 	},
 	{
-		imgSrc: '/images/dev/012.webp',
+		imgSrc: `${base}images/dev/012.webp`,
 		title: 'DT Bâti-Paysage',
 
 		icons: (
@@ -483,7 +485,7 @@ export const developmentData = [
 		category: 'Applications web',
 	},
 	{
-		imgSrc: '/images/dev/033.webp',
+		imgSrc: `${base}images/dev/033.webp`,
 		title: 'Ça Des Boîtes',
 
 		icons: (
@@ -514,7 +516,7 @@ export const developmentData = [
 		category: 'Applications web',
 	},
 	{
-		imgSrc: '/images/dev/013.webp',
+		imgSrc: `${base}images/dev/013.webp`,
 		title: 'Flying Mario',
 
 		icons: (
@@ -577,7 +579,7 @@ export const developmentData = [
 		category: 'Jeux par navigateur',
 	},
 	{
-		imgSrc: '/images/dev/015.webp',
+		imgSrc: `${base}images/dev/015.webp`,
 		title: 'InfinityCube Calculator',
 
 		icons: (
@@ -613,7 +615,7 @@ export const developmentData = [
 		category: 'Applications Android',
 	},
 	{
-		imgSrc: '/images/dev/016.webp',
+		imgSrc: `${base}images/dev/016.webp`,
 		title: 'MeMoPoKé',
 
 		icons: (
@@ -660,7 +662,7 @@ export const developmentData = [
 		category: 'Jeux par navigateur',
 	},
 	{
-		imgSrc: '/images/dev/017.webp',
+		imgSrc: `${base}images/dev/017.webp`,
 		title: 'MultiConverter',
 
 		icons: (
@@ -696,7 +698,7 @@ export const developmentData = [
 		category: 'Applications Android',
 	},
 	{
-		imgSrc: '/images/dev/018.webp',
+		imgSrc: `${base}images/dev/018.webp`,
 		title: 'Le pendu',
 
 		icons: (
@@ -732,7 +734,7 @@ export const developmentData = [
 		category: 'Jeux Android',
 	},
 	{
-		imgSrc: '/images/dev/019.webp',
+		imgSrc: `${base}images/dev/019.webp`,
 		title: 'PushPush',
 
 		icons: (
@@ -768,7 +770,7 @@ export const developmentData = [
 		category: 'Jeux par navigateur',
 	},
 	{
-		imgSrc: '/images/dev/020.webp',
+		imgSrc: `${base}images/dev/020.webp`,
 		title: 'QuizDepartements',
 
 		icons: (
@@ -809,7 +811,7 @@ export const developmentData = [
 		category: 'Jeux Android',
 	},
 	{
-		imgSrc: '/images/dev/021.webp',
+		imgSrc: `${base}images/dev/021.webp`,
 		title: 'QwirkleScoe',
 
 		icons: (
@@ -845,7 +847,7 @@ export const developmentData = [
 		category: 'Applications Android',
 	},
 	{
-		imgSrc: '/images/dev/022.webp',
+		imgSrc: `${base}images/dev/022.webp`,
 		title: 'ScoreSheet',
 
 		icons: (
@@ -881,7 +883,7 @@ export const developmentData = [
 		category: 'Applications Android',
 	},
 	{
-		imgSrc: '/images/dev/024.webp',
+		imgSrc: `${base}images/dev/024.webp`,
 		title: 'Snake',
 
 		icons: (
@@ -917,7 +919,7 @@ export const developmentData = [
 		category: 'Jeux par navigateur',
 	},
 	{
-		imgSrc: '/images/dev/025.webp',
+		imgSrc: `${base}images/dev/025.webp`,
 		title: 'SuiteSoundMemory',
 
 		icons: (
@@ -958,7 +960,7 @@ export const developmentData = [
 		category: 'Jeux Android',
 	},
 	{
-		imgSrc: '/images/dev/026.webp',
+		imgSrc: `${base}images/dev/026.webp`,
 		title: 'XO Tic Tac Toe',
 
 		icons: (
@@ -999,7 +1001,7 @@ export const developmentData = [
 		category: 'Jeux Android',
 	},
 	{
-		imgSrc: '/images/dev/027.webp',
+		imgSrc: `${base}images/dev/027.webp`,
 		title: 'Traducteur',
 
 		icons: (
@@ -1035,7 +1037,7 @@ export const developmentData = [
 		category: 'Applications Android',
 	},
 	{
-		imgSrc: '/images/dev/029.webp',
+		imgSrc: `${base}images/dev/029.webp`,
 		title: 'YamScore',
 
 		icons: (
@@ -1071,7 +1073,7 @@ export const developmentData = [
 		category: 'Applications Android',
 	},
 	{
-		imgSrc: '/images/dev/030.webp',
+		imgSrc: `${base}images/dev/030.webp`,
 		title: 'LiloLaRue Création',
 
 		icons: (
@@ -1107,7 +1109,7 @@ export const developmentData = [
 		category: 'Applications web',
 	},
 	{
-		imgSrc: '/images/dev/031.webp',
+		imgSrc: `${base}images/dev/031.webp`,
 		title: 'InfosCommune',
 
 		icons: (
@@ -1154,7 +1156,7 @@ export const developmentData = [
 		category: 'Applications web',
 	},
 	{
-		imgSrc: '/images/dev/032.webp',
+		imgSrc: `${base}images/dev/032.webp`,
 		title: 'Kaamekott',
 
 		icons: (
