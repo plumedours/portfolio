@@ -35,7 +35,7 @@ export const developmentData = [
 		desc: 'La 8 Ball, vous lui posez une question, et une réponse aléatoire apparait. Réalisé dans le cadre de ma formation. Disponible sur navigateur.',
 		btns: (
 			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
+				{/* <ExternalButton
 					src="https://8ball.plumedours.fr/"
 					text={
 						<Icons
@@ -45,13 +45,13 @@ export const developmentData = [
 							text="Voir le site"
 						/>
 					}
-				/>
+				/> */}
 			</div>
 		),
 		category: 'Jeux par navigateur',
 	},
 	{
-		imgSrc: `${base}images/dev/tiktakline.webp`,
+		imgSrc: `${base}images/dev/035.webp`,
 		title: 'TikTakLine',
 
 		icons: (
@@ -81,7 +81,7 @@ export const developmentData = [
 		desc: 'Inspiré du jeu de société Timeline, ce jeu qui mettra vos connaissances historiques à l\'épreuve !',
 		btns: (
 			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
+				{/* <ExternalButton
 					src="https://tiktakline.plumedours.fr/"
 					text={
 						<Icons
@@ -91,7 +91,7 @@ export const developmentData = [
 							text="Jouer"
 						/>
 					}
-				/>
+				/> */}
 			</div>
 		),
 		category: 'Jeux par navigateur',
@@ -122,7 +122,7 @@ export const developmentData = [
 		desc: 'Site fictif d\'une association d\'aquariophilie dans le cadre d\'une formation. Développé avec HTML, CSS et Bootstrap.',
 		btns: (
 			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
+				{/* <ExternalButton
 					src="https://aquafish.plumedours.fr/"
 					text={
 						<Icons
@@ -132,7 +132,7 @@ export const developmentData = [
 							text="Voir le site"
 						/>
 					}
-				/>
+				/> */}
 				<ExternalButton
 					src="https://github.com/plumedours/eval1"
 					text={
@@ -184,7 +184,7 @@ export const developmentData = [
 		desc: 'Le jeu du pendu, développé en JavaScript, HTML et CSS. Se joue directement sur navigateur.',
 		btns: (
 			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
+				{/* <ExternalButton
 					src="https://pendu.plumedours.fr/"
 					text={
 						<Icons
@@ -194,7 +194,7 @@ export const developmentData = [
 							text="Jouer"
 						/>
 					}
-				/>
+				/> */}
 				<ExternalButton
 					src="https://github.com/plumedours/penduV2"
 					text={
@@ -246,7 +246,7 @@ export const developmentData = [
 		desc: 'Une sorte de Mastermind en chiffre et bien plus dur... (car un code aléatoire entre 1000 et 9999 est généré...) Réalisé en JavaScript et Tailwindcss.',
 		btns: (
 			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
+				{/* <ExternalButton
 					src="https://crackthecode.plumedours.fr/"
 					text={
 						<Icons
@@ -256,7 +256,7 @@ export const developmentData = [
 							text="Jouer"
 						/>
 					}
-				/>
+				/> */}
 				<ExternalButton
 					src="https://github.com/plumedours/crackthecode"
 					text={
@@ -308,7 +308,7 @@ export const developmentData = [
 		desc: 'Un petit jeu développé en JavaScript, le Chifoumi. Jouez contre l\'ordinateur. Se joue directement sur navigateur.',
 		btns: (
 			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
+				{/* <ExternalButton
 					src="https://chifoumi.plumedours.fr/"
 					text={
 						<Icons
@@ -318,7 +318,7 @@ export const developmentData = [
 							text="Jouer"
 						/>
 					}
-				/>
+				/> */}
 				<ExternalButton
 					src="https://github.com/plumedours/chifoumi"
 					text={
@@ -411,7 +411,7 @@ export const developmentData = [
 		desc: 'Un jeu de dé réalisé dans le cadre de ma formation, se joue sur navigateur.',
 		btns: (
 			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
+				{/* <ExternalButton
 					src="https://dicebattle.plumedours.fr/"
 					text={
 						<Icons
@@ -421,7 +421,7 @@ export const developmentData = [
 							text="Jouer"
 						/>
 					}
-				/>
+				/> */}
 				<ExternalButton
 					src="https://github.com/plumedours/eval2"
 					text={
@@ -458,7 +458,7 @@ export const developmentData = [
 		desc: 'Création d\'un site web pour une société de maçonnerie / paysagiste. Réalisé ReactJS et en utilisant le framework TailwindCSS. Un site vitrine pour présenter la société ainsi que ses prestations. Une galerie photo est également disponible.',
 		btns: (
 			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
+				{/* <ExternalButton
 					src="https://www.dtbatipaysage.plumedours.fr/"
 					text={
 						<Icons
@@ -468,7 +468,7 @@ export const developmentData = [
 							text="Voir le site"
 						/>
 					}
-				/>
+				/> */}
 				<ExternalButton
 					src="https://github.com/plumedours/new-dtbatipaysage"
 					text={
@@ -500,7 +500,7 @@ export const developmentData = [
 		desc: 'Création d\'un site web pour une société d\'ostéopathie en entreprise, réalisé avec Wordpress. Toutes les informations et propositions pour améliorer la qualité de vie au travail avec l\'ostéopathie en entreprise.',
 		btns: (
 			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
+				{/* <ExternalButton
 					src="https://www.cadesboites.com/"
 					text={
 						<Icons
@@ -510,7 +510,7 @@ export const developmentData = [
 							text="Voir le site"
 						/>
 					}
-				/>
+				/> */}
 			</div>
 		),
 		category: 'Applications web',
@@ -541,7 +541,7 @@ export const developmentData = [
 		desc: 'Un jeu type FlappyBird sur le thème Super Mario, réalisé avec Gdevelop, un logiciel de création de jeux vidéos. Se joue depuis un navigateur web. Une version Android est également disponible.',
 		btns: (
 			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
+				{/* <ExternalButton
 					src="https://flyingmario.plumedours.fr/"
 					text={
 						<Icons
@@ -551,8 +551,8 @@ export const developmentData = [
 							text="Jouer"
 						/>
 					}
-				/>
-				<ExternalButton
+				/> */}
+				{/* <ExternalButton
 					src="https://plumedours.fr/divers/jeux/flyingmario/"
 					text={
 						<Icons
@@ -562,8 +562,8 @@ export const developmentData = [
 							text="Jouer V2"
 						/>
 					}
-				/>
-				<ExternalButton
+				/> */}
+				{/* <ExternalButton
 					src="https://plumedours.fr/divers/apk/flyingmario.apk"
 					text={
 						<Icons
@@ -573,14 +573,14 @@ export const developmentData = [
 							text="APK V2"
 						/>
 					}
-				/>
+				/> */}
 			</div>
 		),
 		category: 'Jeux par navigateur',
 	},
 	{
-		imgSrc: `${base}images/dev/015.webp`,
-		title: 'InfinityCube Calculator',
+		imgSrc: `${base}images/dev/034.webp`,
+		title: 'AleaTouch',
 
 		icons: (
 			<div className="flex flex-row gap-1 my-1">
@@ -596,11 +596,11 @@ export const developmentData = [
 				/>
 			</div>
 		),
-		desc: 'Cette application vous permet de calculer les dimensions d\'un cube infini, que vous pouvez visualiser en 3D dans la section « modélisation 3D ». Développé avec Kodular, un site AppBuilder no-code. Disponible sur le PlayStore.',
+		desc: 'AleaTouch transforme vos décisions en un moment ludique et tactile !',
 		btns: (
 			<div className="flex flex-row gap-2 my-1">
 				<ExternalButton
-					src="https://play.google.com/store/apps/details?id=infinitycubecalculator.plumedours"
+					src="https://play.google.com/store/apps/details?id=com.plumedours.aleatouch"
 					text={
 						<Icons
 							src="#icon-playstore"
@@ -614,6 +614,42 @@ export const developmentData = [
 		),
 		category: 'Applications Android',
 	},
+	// {
+	// 	imgSrc: `${base}images/dev/015.webp`,
+	// 	title: 'InfinityCube Calculator',
+
+	// 	icons: (
+	// 		<div className="flex flex-row gap-1 my-1">
+	// 			<Icons
+	// 				src="#icon-android"
+	// 				alt="Icon android"
+	// 				className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
+	// 			/>
+	// 			<Icons
+	// 				src="#icon-phone"
+	// 				alt="Icon phone"
+	// 				className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
+	// 			/>
+	// 		</div>
+	// 	),
+	// 	desc: 'Cette application vous permet de calculer les dimensions d\'un cube infini, que vous pouvez visualiser en 3D dans la section « modélisation 3D ». Développé avec Kodular, un site AppBuilder no-code. Disponible sur le PlayStore.',
+	// 	btns: (
+	// 		<div className="flex flex-row gap-2 my-1">
+	// 			<ExternalButton
+	// 				src="https://play.google.com/store/apps/details?id=infinitycubecalculator.plumedours"
+	// 				text={
+	// 					<Icons
+	// 						src="#icon-playstore"
+	// 						alt="Icon playstore"
+	// 						className="w-6 h-6 text-neutral-900 opacity-50 group-hover:opacity-100"
+	// 						text="PlayStore"
+	// 					/>
+	// 				}
+	// 			/>
+	// 		</div>
+	// 	),
+	// 	category: 'Applications Android',
+	// },
 	{
 		imgSrc: `${base}images/dev/016.webp`,
 		title: 'MeMoPoKé',
@@ -635,7 +671,7 @@ export const developmentData = [
 		desc: 'Un jeu memory sur le thème Pokémon, réalisé avec Gdevelop, un logiciel de création de jeux vidéos. Se joue depuis un navigateur web. Une version Android est également disponible.',
 		btns: (
 			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
+				{/* <ExternalButton
 					src="https://memopoke.plumedours.fr/"
 					text={
 						<Icons
@@ -645,8 +681,8 @@ export const developmentData = [
 							text="Jouer"
 						/>
 					}
-				/>
-				<ExternalButton
+				/> */}
+				{/* <ExternalButton
 					src="https://plumedours.fr/divers/apk/memopoke.apk"
 					text={
 						<Icons
@@ -656,83 +692,83 @@ export const developmentData = [
 							text="APK"
 						/>
 					}
-				/>
+				/> */}
 			</div>
 		),
 		category: 'Jeux par navigateur',
 	},
-	{
-		imgSrc: `${base}images/dev/017.webp`,
-		title: 'MultiConverter',
+	// {
+	// 	imgSrc: `${base}images/dev/017.webp`,
+	// 	title: 'MultiConverter',
 
-		icons: (
-			<div className="flex flex-row gap-1 my-1">
-				<Icons
-					src="#icon-android"
-					alt="Icon android"
-					className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
-				/>
-				<Icons
-					src="#icon-phone"
-					alt="Icon phone"
-					className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
-				/>
-			</div>
-		),
-		desc: 'Application permettant de convertir des unités de mesure et devises. Développé avec Kodular, un site AppBuilder no-code. Disponible sur le PlayStore.',
-		btns: (
-			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
-					src="https://play.google.com/store/apps/details?id=plumedours.multiconverter"
-					text={
-						<Icons
-							src="#icon-playstore"
-							alt="Icon playstore"
-							className="w-6 h-6 text-neutral-900 opacity-50 group-hover:opacity-100"
-							text="PlayStore"
-						/>
-					}
-				/>
-			</div>
-		),
-		category: 'Applications Android',
-	},
-	{
-		imgSrc: `${base}images/dev/018.webp`,
-		title: 'Le pendu',
+	// 	icons: (
+	// 		<div className="flex flex-row gap-1 my-1">
+	// 			<Icons
+	// 				src="#icon-android"
+	// 				alt="Icon android"
+	// 				className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
+	// 			/>
+	// 			<Icons
+	// 				src="#icon-phone"
+	// 				alt="Icon phone"
+	// 				className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
+	// 			/>
+	// 		</div>
+	// 	),
+	// 	desc: 'Application permettant de convertir des unités de mesure et devises. Développé avec Kodular, un site AppBuilder no-code. Disponible sur le PlayStore.',
+	// 	btns: (
+	// 		<div className="flex flex-row gap-2 my-1">
+	// 			<ExternalButton
+	// 				src="https://play.google.com/store/apps/details?id=plumedours.multiconverter"
+	// 				text={
+	// 					<Icons
+	// 						src="#icon-playstore"
+	// 						alt="Icon playstore"
+	// 						className="w-6 h-6 text-neutral-900 opacity-50 group-hover:opacity-100"
+	// 						text="PlayStore"
+	// 					/>
+	// 				}
+	// 			/>
+	// 		</div>
+	// 	),
+	// 	category: 'Applications Android',
+	// },
+	// {
+	// 	imgSrc: `${base}images/dev/018.webp`,
+	// 	title: 'Le pendu',
 
-		icons: (
-			<div className="flex flex-row gap-1 my-1">
-				<Icons
-					src="#icon-android"
-					alt="Icon android"
-					className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
-				/>
-				<Icons
-					src="#icon-game"
-					alt="Icon game"
-					className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
-				/>
-			</div>
-		),
-		desc: 'Le jeu du pendu version application Android, développé avec Kodular, un site AppBuilder no-code. Disponible sur le PlayStore.',
-		btns: (
-			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
-					src="https://play.google.com/store/apps/details?id=pendu.plumedours"
-					text={
-						<Icons
-							src="#icon-playstore"
-							alt="Icon playstore"
-							className="w-6 h-6 text-neutral-900 opacity-50 group-hover:opacity-100"
-							text="PlayStore"
-						/>
-					}
-				/>
-			</div>
-		),
-		category: 'Jeux Android',
-	},
+	// 	icons: (
+	// 		<div className="flex flex-row gap-1 my-1">
+	// 			<Icons
+	// 				src="#icon-android"
+	// 				alt="Icon android"
+	// 				className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
+	// 			/>
+	// 			<Icons
+	// 				src="#icon-game"
+	// 				alt="Icon game"
+	// 				className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
+	// 			/>
+	// 		</div>
+	// 	),
+	// 	desc: 'Le jeu du pendu version application Android, développé avec Kodular, un site AppBuilder no-code. Disponible sur le PlayStore.',
+	// 	btns: (
+	// 		<div className="flex flex-row gap-2 my-1">
+	// 			<ExternalButton
+	// 				src="https://play.google.com/store/apps/details?id=pendu.plumedours"
+	// 				text={
+	// 					<Icons
+	// 						src="#icon-playstore"
+	// 						alt="Icon playstore"
+	// 						className="w-6 h-6 text-neutral-900 opacity-50 group-hover:opacity-100"
+	// 						text="PlayStore"
+	// 					/>
+	// 				}
+	// 			/>
+	// 		</div>
+	// 	),
+	// 	category: 'Jeux Android',
+	// },
 	{
 		imgSrc: `${base}images/dev/019.webp`,
 		title: 'PushPush',
@@ -754,7 +790,7 @@ export const developmentData = [
 		desc: 'Un jeu type Sokoban, réalisé avec RPG Maker, un logiciel de création de jeux vidéos. Se joue depuis un navigateur web.',
 		btns: (
 			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
+				{/* <ExternalButton
 					src="https://pushpush.plumedours.fr/"
 					text={
 						<Icons
@@ -764,88 +800,88 @@ export const developmentData = [
 							text="Jouer"
 						/>
 					}
-				/>
+				/> */}
 			</div>
 		),
 		category: 'Jeux par navigateur',
 	},
-	{
-		imgSrc: `${base}images/dev/020.webp`,
-		title: 'QuizDepartements',
+	// {
+	// 	imgSrc: `${base}images/dev/020.webp`,
+	// 	title: 'QuizDepartements',
 
-		icons: (
-			<div className="flex flex-row gap-1 my-1">
-				<Icons
-					src="#icon-game"
-					alt="Icon game"
-					className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
-				/>
-				<Icons
-					src="#icon-android"
-					alt="Icon android"
-					className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
-				/>
-				<Icons
-					src="#icon-phone"
-					alt="Icon phone"
-					className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
-				/>
-			</div>
-		),
-		desc: 'QuizDepartement est un jeu pour smartphone Android, développé avec Kodular, un site AppBuilder no code. Le jeu est disponible sur le PlayStore.',
-		btns: (
-			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
-					src="https://play.google.com/store/apps/details?id=com.plumedours.quizdepartements"
-					text={
-						<Icons
-							src="#icon-playstore"
-							alt="Icon playstore"
-							className="w-6 h-6 text-neutral-900 opacity-50 group-hover:opacity-100"
-							text="PlayStore"
-						/>
-					}
-				/>
-			</div>
-		),
-		category: 'Jeux Android',
-	},
-	{
-		imgSrc: `${base}images/dev/021.webp`,
-		title: 'QwirkleScoe',
+	// 	icons: (
+	// 		<div className="flex flex-row gap-1 my-1">
+	// 			<Icons
+	// 				src="#icon-game"
+	// 				alt="Icon game"
+	// 				className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
+	// 			/>
+	// 			<Icons
+	// 				src="#icon-android"
+	// 				alt="Icon android"
+	// 				className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
+	// 			/>
+	// 			<Icons
+	// 				src="#icon-phone"
+	// 				alt="Icon phone"
+	// 				className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
+	// 			/>
+	// 		</div>
+	// 	),
+	// 	desc: 'QuizDepartement est un jeu pour smartphone Android, développé avec Kodular, un site AppBuilder no code. Le jeu est disponible sur le PlayStore.',
+	// 	btns: (
+	// 		<div className="flex flex-row gap-2 my-1">
+	// 			<ExternalButton
+	// 				src="https://play.google.com/store/apps/details?id=com.plumedours.quizdepartements"
+	// 				text={
+	// 					<Icons
+	// 						src="#icon-playstore"
+	// 						alt="Icon playstore"
+	// 						className="w-6 h-6 text-neutral-900 opacity-50 group-hover:opacity-100"
+	// 						text="PlayStore"
+	// 					/>
+	// 				}
+	// 			/>
+	// 		</div>
+	// 	),
+	// 	category: 'Jeux Android',
+	// },
+	// {
+	// 	imgSrc: `${base}images/dev/021.webp`,
+	// 	title: 'QwirkleScoe',
 
-		icons: (
-			<div className="flex flex-row gap-1 my-1">
-				<Icons
-					src="#icon-android"
-					alt="Icon android"
-					className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
-				/>
-				<Icons
-					src="#icon-phone"
-					alt="Icon phone"
-					className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
-				/>
-			</div>
-		),
-		desc: 'Application permettant de tenir les scores d\'une partie de Qwirkle, un jeu de société type réflexion. Développé avec Kodular, un site AppBuilder no-code.',
-		btns: (
-			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
-					src="https://play.google.com/store/apps/details?id=com.plumedours.qwirklescore"
-					text={
-						<Icons
-							src="#icon-playstore"
-							alt="Icon playstore"
-							className="w-6 h-6 text-neutral-900 opacity-50 group-hover:opacity-100"
-							text="PlayStore"
-						/>
-					}
-				/>
-			</div>
-		),
-		category: 'Applications Android',
-	},
+	// 	icons: (
+	// 		<div className="flex flex-row gap-1 my-1">
+	// 			<Icons
+	// 				src="#icon-android"
+	// 				alt="Icon android"
+	// 				className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
+	// 			/>
+	// 			<Icons
+	// 				src="#icon-phone"
+	// 				alt="Icon phone"
+	// 				className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
+	// 			/>
+	// 		</div>
+	// 	),
+	// 	desc: 'Application permettant de tenir les scores d\'une partie de Qwirkle, un jeu de société type réflexion. Développé avec Kodular, un site AppBuilder no-code.',
+	// 	btns: (
+	// 		<div className="flex flex-row gap-2 my-1">
+	// 			<ExternalButton
+	// 				src="https://play.google.com/store/apps/details?id=com.plumedours.qwirklescore"
+	// 				text={
+	// 					<Icons
+	// 						src="#icon-playstore"
+	// 						alt="Icon playstore"
+	// 						className="w-6 h-6 text-neutral-900 opacity-50 group-hover:opacity-100"
+	// 						text="PlayStore"
+	// 					/>
+	// 				}
+	// 			/>
+	// 		</div>
+	// 	),
+	// 	category: 'Applications Android',
+	// },
 	{
 		imgSrc: `${base}images/dev/022.webp`,
 		title: 'ScoreSheet',
@@ -903,7 +939,7 @@ export const developmentData = [
 		desc: 'Le jeu du Snake réalisé avec Gdevelop, un logiciel de création de jeux vidéos. Se joue depuis un navigateur web.',
 		btns: (
 			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
+				{/* <ExternalButton
 					src="https://snake.plumedours.fr/"
 					text={
 						<Icons
@@ -913,165 +949,165 @@ export const developmentData = [
 							text="Jouer"
 						/>
 					}
-				/>
+				/> */}
 			</div>
 		),
 		category: 'Jeux par navigateur',
 	},
-	{
-		imgSrc: `${base}images/dev/025.webp`,
-		title: 'SuiteSoundMemory',
+	// {
+	// 	imgSrc: `${base}images/dev/025.webp`,
+	// 	title: 'SuiteSoundMemory',
 
-		icons: (
-			<div className="flex flex-row gap-1 my-1">
-				<Icons
-					src="#icon-android"
-					alt="Icon android"
-					className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
-				/>
-				<Icons
-					src="#icon-game"
-					alt="Icon game"
-					className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
-				/>
-				<Icons
-					src="#icon-phone"
-					alt="Icon phone"
-					className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
-				/>
-			</div>
-		),
-		desc: 'Le célèbre jeu Simon, où il faut répéter la suite de donnée par l\'ordinateur. Le jeu est développé avec Kodular, un site AppBuilder no-code. Disponible sur le PlaySotre.',
-		btns: (
-			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
-					src="https://play.google.com/store/apps/details?id=com.plumedours.suitesoundmemory"
-					text={
-						<Icons
-							src="#icon-playstore"
-							alt="Icon playstore"
-							className="w-6 h-6 text-neutral-900 opacity-50 group-hover:opacity-100"
-							text="PlayStore"
-						/>
-					}
-				/>
-			</div>
-		),
-		category: 'Jeux Android',
-	},
-	{
-		imgSrc: `${base}images/dev/026.webp`,
-		title: 'XO Tic Tac Toe',
+	// 	icons: (
+	// 		<div className="flex flex-row gap-1 my-1">
+	// 			<Icons
+	// 				src="#icon-android"
+	// 				alt="Icon android"
+	// 				className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
+	// 			/>
+	// 			<Icons
+	// 				src="#icon-game"
+	// 				alt="Icon game"
+	// 				className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
+	// 			/>
+	// 			<Icons
+	// 				src="#icon-phone"
+	// 				alt="Icon phone"
+	// 				className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
+	// 			/>
+	// 		</div>
+	// 	),
+	// 	desc: 'Le célèbre jeu Simon, où il faut répéter la suite de donnée par l\'ordinateur. Le jeu est développé avec Kodular, un site AppBuilder no-code. Disponible sur le PlaySotre.',
+	// 	btns: (
+	// 		<div className="flex flex-row gap-2 my-1">
+	// 			<ExternalButton
+	// 				src="https://play.google.com/store/apps/details?id=com.plumedours.suitesoundmemory"
+	// 				text={
+	// 					<Icons
+	// 						src="#icon-playstore"
+	// 						alt="Icon playstore"
+	// 						className="w-6 h-6 text-neutral-900 opacity-50 group-hover:opacity-100"
+	// 						text="PlayStore"
+	// 					/>
+	// 				}
+	// 			/>
+	// 		</div>
+	// 	),
+	// 	category: 'Jeux Android',
+	// },
+	// {
+	// 	imgSrc: `${base}images/dev/026.webp`,
+	// 	title: 'XO Tic Tac Toe',
 
-		icons: (
-			<div className="flex flex-row gap-1 my-1">
-				<Icons
-					src="#icon-android"
-					alt="Icon android"
-					className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
-				/>
-				<Icons
-					src="#icon-game"
-					alt="Icon game"
-					className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
-				/>
-				<Icons
-					src="#icon-phone"
-					alt="Icon phone"
-					className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
-				/>
-			</div>
-		),
-		desc: 'Le jeu du morpion, développé avec Kodular, un site AppBuilder no-code. Disponible sur le Play Sotre.',
-		btns: (
-			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
-					src="https://play.google.com/store/apps/details?id=com.xotictactoe.plumedours"
-					text={
-						<Icons
-							src="#icon-playstore"
-							alt="Icon playstore"
-							className="w-6 h-6 text-neutral-900 opacity-50 group-hover:opacity-100"
-							text="PlayStore"
-						/>
-					}
-				/>
-			</div>
-		),
-		category: 'Jeux Android',
-	},
-	{
-		imgSrc: `${base}images/dev/027.webp`,
-		title: 'Traducteur',
+	// 	icons: (
+	// 		<div className="flex flex-row gap-1 my-1">
+	// 			<Icons
+	// 				src="#icon-android"
+	// 				alt="Icon android"
+	// 				className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
+	// 			/>
+	// 			<Icons
+	// 				src="#icon-game"
+	// 				alt="Icon game"
+	// 				className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
+	// 			/>
+	// 			<Icons
+	// 				src="#icon-phone"
+	// 				alt="Icon phone"
+	// 				className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
+	// 			/>
+	// 		</div>
+	// 	),
+	// 	desc: 'Le jeu du morpion, développé avec Kodular, un site AppBuilder no-code. Disponible sur le Play Sotre.',
+	// 	btns: (
+	// 		<div className="flex flex-row gap-2 my-1">
+	// 			<ExternalButton
+	// 				src="https://play.google.com/store/apps/details?id=com.xotictactoe.plumedours"
+	// 				text={
+	// 					<Icons
+	// 						src="#icon-playstore"
+	// 						alt="Icon playstore"
+	// 						className="w-6 h-6 text-neutral-900 opacity-50 group-hover:opacity-100"
+	// 						text="PlayStore"
+	// 					/>
+	// 				}
+	// 			/>
+	// 		</div>
+	// 	),
+	// 	category: 'Jeux Android',
+	// },
+	// {
+	// 	imgSrc: `${base}images/dev/027.webp`,
+	// 	title: 'Traducteur',
 
-		icons: (
-			<div className="flex flex-row gap-1 my-1">
-				<Icons
-					src="#icon-android"
-					alt="Icon android"
-					className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
-				/>
-				<Icons
-					src="#icon-phone"
-					alt="Icon phone"
-					className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
-				/>
-			</div>
-		),
-		desc: 'Applications Android, un traducteur multi-langue. Développé avec Kodular, un site AppBuilder no-code. Disponible sur le PlayStore.',
-		btns: (
-			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
-					src="https://play.google.com/store/apps/details?id=plumedours.traducteur"
-					text={
-						<Icons
-							src="#icon-playstore"
-							alt="Icon playstore"
-							className="w-6 h-6 text-neutral-900 opacity-50 group-hover:opacity-100"
-							text="PlayStore"
-						/>
-					}
-				/>
-			</div>
-		),
-		category: 'Applications Android',
-	},
-	{
-		imgSrc: `${base}images/dev/029.webp`,
-		title: 'YamScore',
+	// 	icons: (
+	// 		<div className="flex flex-row gap-1 my-1">
+	// 			<Icons
+	// 				src="#icon-android"
+	// 				alt="Icon android"
+	// 				className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
+	// 			/>
+	// 			<Icons
+	// 				src="#icon-phone"
+	// 				alt="Icon phone"
+	// 				className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
+	// 			/>
+	// 		</div>
+	// 	),
+	// 	desc: 'Applications Android, un traducteur multi-langue. Développé avec Kodular, un site AppBuilder no-code. Disponible sur le PlayStore.',
+	// 	btns: (
+	// 		<div className="flex flex-row gap-2 my-1">
+	// 			<ExternalButton
+	// 				src="https://play.google.com/store/apps/details?id=plumedours.traducteur"
+	// 				text={
+	// 					<Icons
+	// 						src="#icon-playstore"
+	// 						alt="Icon playstore"
+	// 						className="w-6 h-6 text-neutral-900 opacity-50 group-hover:opacity-100"
+	// 						text="PlayStore"
+	// 					/>
+	// 				}
+	// 			/>
+	// 		</div>
+	// 	),
+	// 	category: 'Applications Android',
+	// },
+	// {
+	// 	imgSrc: `${base}images/dev/029.webp`,
+	// 	title: 'YamScore',
 
-		icons: (
-			<div className="flex flex-row gap-1 my-1">
-				<Icons
-					src="#icon-android"
-					alt="Icon android"
-					className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
-				/>
-				<Icons
-					src="#icon-phone"
-					alt="Icon phone"
-					className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
-				/>
-			</div>
-		),
-		desc: 'YamScore est une application Android permettant de noté les score lors d\'une partie de Yams. Ce n\'est pas un jeu, mais une feuille de score. Réalisé avec Kodular, un site AppBuilder no code. Disponible sur le PlayStore.',
-		btns: (
-			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
-					src="https://play.google.com/store/apps/details?id=plumedours.yamscore"
-					text={
-						<Icons
-							src="#icon-playstore"
-							alt="Icon playstore"
-							className="w-6 h-6 text-neutral-900 opacity-50 group-hover:opacity-100"
-							text="PlayStore"
-						/>
-					}
-				/>
-			</div>
-		),
-		category: 'Applications Android',
-	},
+	// 	icons: (
+	// 		<div className="flex flex-row gap-1 my-1">
+	// 			<Icons
+	// 				src="#icon-android"
+	// 				alt="Icon android"
+	// 				className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
+	// 			/>
+	// 			<Icons
+	// 				src="#icon-phone"
+	// 				alt="Icon phone"
+	// 				className="w-6 h-6 text-neutral-100 opacity-50 group-hover:opacity-100"
+	// 			/>
+	// 		</div>
+	// 	),
+	// 	desc: 'YamScore est une application Android permettant de noté les score lors d\'une partie de Yams. Ce n\'est pas un jeu, mais une feuille de score. Réalisé avec Kodular, un site AppBuilder no code. Disponible sur le PlayStore.',
+	// 	btns: (
+	// 		<div className="flex flex-row gap-2 my-1">
+	// 			<ExternalButton
+	// 				src="https://play.google.com/store/apps/details?id=plumedours.yamscore"
+	// 				text={
+	// 					<Icons
+	// 						src="#icon-playstore"
+	// 						alt="Icon playstore"
+	// 						className="w-6 h-6 text-neutral-900 opacity-50 group-hover:opacity-100"
+	// 						text="PlayStore"
+	// 					/>
+	// 				}
+	// 			/>
+	// 		</div>
+	// 	),
+	// 	category: 'Applications Android',
+	// },
 	{
 		imgSrc: `${base}images/dev/030.webp`,
 		title: 'LiloLaRue Création',
@@ -1093,7 +1129,7 @@ export const developmentData = [
 		desc: 'Boutique en ligne d\'objet d\'art, d\'articles de décoration, d\'art de la table, de cadeaux personnalisés et bien d\'autre,. Réalisé avec Wordpress et Woocommerce.',
 		btns: (
 			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
+				{/* <ExternalButton
 					src="#"
 					text={
 						<Icons
@@ -1103,7 +1139,7 @@ export const developmentData = [
 							text="Site hors ligne"
 						/>
 					}
-				/>
+				/> */}
 			</div>
 		),
 		category: 'Applications web',
@@ -1129,7 +1165,7 @@ export const developmentData = [
 		desc: 'L\'application InfosCommune permet d\'obtenir des informations sur les communes de France, par le biais de l\'API data-gouv. Développé avec React et TailwindCSS.',
 		btns: (
 			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
+				{/* <ExternalButton
 					src="https://infoscommunes.plumedours.fr/"
 					text={
 						<Icons
@@ -1139,7 +1175,7 @@ export const developmentData = [
 							text="Voir le site"
 						/>
 					}
-				/>
+				/> */}
 				<ExternalButton
 					src="https://github.com/plumedours/infoscommunes"
 					text={
@@ -1181,7 +1217,7 @@ export const developmentData = [
 		desc: 'Simple générateur de citations de la série Kaamelott, réalisée par Alexandre Astier. Le fichier json à été pris sur l\'api de sin0light (que j\'ai modifié pour rajouté des éléments) : https://github.com/sin0light/api-kaamelott',
 		btns: (
 			<div className="flex flex-row gap-2 my-1">
-				<ExternalButton
+				{/* <ExternalButton
 					src="https://kaamekott.plumedours.fr/"
 					text={
 						<Icons
@@ -1191,7 +1227,7 @@ export const developmentData = [
 							text="Voir le site"
 						/>
 					}
-				/>
+				/> */}
 				<ExternalButton
 					src="https://github.com/plumedours/kaamekott"
 					text={

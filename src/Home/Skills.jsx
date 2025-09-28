@@ -16,6 +16,8 @@ import IconWordpress from '../assets/icons/wordpress.svg';
 import IconTailwindcss from '../assets/icons/tailwindcss.svg';
 import IconPhp from '../assets/icons/php.png';
 import IconsSkills from "../components/commons/IconsSkills";
+import IconElementor from "../assets/icons/elementor.svg";
+import IconCsharp from "../assets/icons/csharp.svg";
 
 function Skills() {
   return (
@@ -33,12 +35,14 @@ function Skills() {
                 <IconsSkills src={IconCss} alt="" className="" iconName="CSS" />
                 <IconsSkills src={IconJs} alt="" className="" iconName="JavaScript" />
                 <IconsSkills src={IconReact} alt="" className="" iconName="React" />
+                <IconsSkills src={IconCsharp} alt="" className="" iconName="C#" />
               </div>
               <div className="flex flex-col">
                 <IconsSkills src={IconTailwindcss} alt="" className="" iconName="Tailwindcss" />
                 <IconsSkills src={IconPhp} alt="" className="" iconName="PHP" />
                 <IconsSkills src={IconSymfony} alt="" className="" iconName="Symfony" />
                 <IconsSkills src={IconWordpress} alt="" className="" iconName="Wordpress" />
+                <IconsSkills src={IconElementor} alt="" className="" iconName="Elementor" />
               </div>
             </div>
           </div>
